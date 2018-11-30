@@ -20,7 +20,7 @@ namespace War
             int randomForHealth = randomValue.Next(1, 30);
             int randomForAttack = randomValue.Next(1, 6);
             int randomForPower = randomValue.Next(0, 4);
-            Name = name;            
+            Name = name;                                  
             Health = health + 50 + randomForHealth;
             Attack = attack + 6 + randomForAttack;
             Power = power + 1 + randomForPower;
