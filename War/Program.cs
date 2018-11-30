@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace War
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
@@ -15,8 +15,8 @@ namespace War
             string line = "";
             while (line != null)
             {
-                line = myReader.ReadLine();
-                Console.WriteLine(line);
+                line = myReader.ReadLine();                
+                Console.WriteLine(line);                
             }
             myReader.Close();
             Console.ReadLine();
