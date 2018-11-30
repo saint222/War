@@ -13,13 +13,14 @@ namespace War
         public int Attack { get; set; }
         public int Power { get; set; }
 
-        public Warrior(string name, int health, int attack, int power)
+        
+
+        public Warrior(string name, int health, int attack, int power, Random randomValue)
         {
-            Random randomValue = new Random();
-            Name = name;
-            int randomForHealth = randomValue.Next(1,30);
-            int randomForAttack = randomValue.Next(1,6);
-            int randomForPower = randomValue.Next(0,4);
+            int randomForHealth = randomValue.Next(1, 30);
+            int randomForAttack = randomValue.Next(1, 6);
+            int randomForPower = randomValue.Next(0, 4);
+            Name = name;            
             Health = health + 50 + randomForHealth;
             Attack = attack + 6 + randomForAttack;
             Power = power + 1 + randomForPower;
