@@ -8,12 +8,19 @@ namespace War
 {
     public class Battle
     {
-        Group russia_1 = new Group() { Name = "russia_1", Squads = new List<Squad> ()};
-        Group russia_2 = new Group() { Name = "russia_2", Squads = new List<Squad> ()};
+        Group russia = new Group() { Name = "Russia", Squads = new List<Squad>() };        
+        Group usa = new Group() { Name = "USA", Squads = new List<Squad>() };      
 
-        Group usa_1 = new Group() { Name = "usa_1", Squads = new List<Squad> ()};
-        Group usa_2 = new Group() { Name = "usa_2", Squads = new List<Squad> ()};
 
+
+        Squad russianSquad_1 = new Squad() { Name = "russianVodkaLovers", Warriors = new List<Warrior>() };
+        Squad russianSquad_2 = new Squad() { Name = "russianBeerLovers", Warriors = new List<Warrior>() };
+
+
+        Squad usaSquad_1 = new Squad() { Name = "americanVegans", Warriors = new List<Warrior>() };
+        Squad usaSquad_2 = new Squad() { Name = "americanHomosexuals", Warriors = new List<Warrior>() };
+          
+       
 
     }
 }

@@ -26,5 +26,6 @@ namespace War
             Power = power + 1 + randomForPower;
         }
 
+        
     }
 }

@@ -10,7 +10,7 @@ namespace War
     {
         public string Name { get; set; }
         public List <Warrior> Warriors { get; set; }
-
-        
+               
     }
+
 }
